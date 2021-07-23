@@ -5,6 +5,7 @@
     "require": {
         "neos/neos": "*"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "PunktDe\\FrontendUserPatch\\": "Classes/"
