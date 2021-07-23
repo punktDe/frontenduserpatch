@@ -1,0 +1,18 @@
+{
+    "description": "Patches the frontend user login in Neos versions",
+    "type": "neos-package",
+    "name": "punktde/frontenduserpatch",
+    "require": {
+        "neos/neos": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PunktDe\\FrontendUserPatch\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "PunktDe.FrontendUserPatch"
+        }
+    }
+}
